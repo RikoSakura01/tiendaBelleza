@@ -1,0 +1,136 @@
+.logo{
+    width: 20px;
+    height: 20px;
+}
+
+nav{
+    background-color: #131313;
+    
+}
+
+/* Espacio entre los enlaces centrados */
+.navbar-nav .nav-link {
+    margin-right: 30px; /* Espacio entre los enlaces */
+  }
+  
+  /* Eliminar margen derecho en el último enlace de la parte central */
+  .navbar-nav .nav-link:last-child {
+    margin-right: 0;
+  }
+  
+  /* Espacio entre los enlaces de la derecha */
+  .ms-auto .nav-link {
+    margin-left: 0px; /* Espacio entre los enlaces a la derecha */
+  }
+  
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+}
+
+.nav-link:hover{
+    color: #ff00f2 !important;
+}
+
+h2{
+    margin: auto;
+}
+
+main{
+    color: aliceblue;
+    padding-top: 70px !important;
+}
+
+.carousel-inner{    
+
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 80%;
+    width: 90%;
+}
+
+.carousel-item img {
+    width: 100%; /* Ocupa todo el ancho del carrusel */
+    height: 500px; /* Altura fija del carrusel */
+    object-fit: cover; /* Recorta la imagen para que se ajuste al tamaño */
+}
+
+img.carritosvg {
+    filter: brightness(0) invert(1);
+    width: 30px;  /* Ancho deseado */
+    height: 30px; /* Alto deseado */
+  }
+
+  img.carritosvg:hover  {
+    filter: brightness(80) invert(0) sepia(0) saturate(10000%) hue-rotate(100deg) !important; /* Aproximación al color #ff00f2 */
+  }
+
+.bg-primary {
+    background-color: #282727 !important; /* Reemplaza #123456 con tu color hexadecimal */
+    height: 500px !important;
+  }
+
+
+.bg-success{
+    background-color: #1e1e1e !important; /* Reemplaza #123456 con tu color hexadecimal */
+
+}
+
+td{
+    padding:0px 10px 0px 10px ;
+}
+
+.formLogIn{
+    margin: 10px 40px 0px 40px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+    background-color: #1e1e1e ;
+}
+
+input{
+    transition: 0.5;
+}
+input:hover{
+    background-color: #ffc3fc !important;
+    transition: 0.5;
+
+}
+input:focus{
+    background-color: #ffc3fc !important;
+    transition: 0.5;
+
+}
+
+h1,h3{
+    text-align: center;
+    color: #ff7df9 !important;
+}
+
+button{
+    color: #ffffff !important;
+    background-color: #ff00f2 !important;
+    transition: 0.5;
+}
+
+button:hover{
+    background-color: #ff7df9 !important;
+    transition: 0.5;
+}
+
+select{
+    color: #000000;
+    background-color: #ffffff;
+    transition: 0.5 !important;
+
+}
+
+select:hover{
+    background-color: #ff7df9;
+    transition: 0.5 !important;
+
+}
+
+select:focus{
+    background-color: #ff7df9;
+}
+

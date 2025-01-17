@@ -1,0 +1,29 @@
+.tablaVendedor{
+    border: 1px solid rgb(255, 255, 255);       /* Borde externo de la tabla */
+  border-collapse: collapse;     /* Combina los bordes de la tabla, filas y celdas en uno solo */
+  width: 100%;                   /* Ancho de la tabla */
+}
+
+.tablaVendedor th,.tablaVendedor td {
+    border: 1px solid rgb(255, 255, 255);       /* Borde de cada celda */
+    padding: 10px;                 /* Espaciado dentro de cada celda */
+    width: 33.33%;              /* Ancho igual para todas las celdas (100% dividido entre 3 columnas) */
+    height: 100px;              /* Altura igual para todas las celdas */
+    text-align: center;         /* Centrar el texto en las celdas */
+  }
+
+.tablaVendedor tr {
+    border: 1px solid rgb(255, 255, 255);       /* Borde de cada fila */
+  }
+
+  .bg-primary {
+    background-color: #282727 !important; /* Reemplaza #123456 con tu color hexadecimal */
+    flex-wrap: wrap ;
+
+  }
+
+
+.bg-success{
+    background-color: #1e1e1e !important; /* Reemplaza #123456 con tu color hexadecimal */
+    flex-wrap: wrap !important;
+}
